@@ -1,0 +1,166 @@
+.layout_register {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 550px;
+    text-align: start;
+}
+
+.layout_main {
+    text-align: -webkit-center;
+}
+
+.btn_center {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn_start {
+    text-align: start;
+    margin: 0px;
+    padding: 0px 0px 0px 1%;
+    align-self: self-end;
+}
+.btn_end{
+    text-align: end;
+    margin: 0px;
+    padding: 0px 1% 0px 0px;
+    align-self: self-end;
+}
+
+.label_error {
+    color: red;
+    font-size: 12px
+}
+
+.btn_register{
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 200;
+    font-size: 10px;
+}
+.btn_register:hover:enabled {
+    background-color: #002a66;
+    border: #002a66 solid;
+    color: white;
+    transition: 1s;
+}
+
+.button_submit {
+    border: 1px solid black;
+    background-color: #005bb3;
+    padding: 10px;
+    border-radius: 10px;
+    border: #005bb3 solid;
+    color: white;
+    font-weight: 500;
+}
+
+.button_submit:hover:enabled {
+    background-color: #002a66;
+    border: #002a66 solid;
+    color: white;
+}
+
+.button_submit:disabled,
+.button_submit[disabled] {
+    border: 1px solid black;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: not-allowed;
+}
+
+.btn_forgotpassword{
+    border: 0px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 200;
+    font-size: 10px;
+}
+.btn_forgotpassword:hover:enabled {
+    background-color: #002a66;
+    border: #002a66 solid;
+    color: white;
+    transition: 1s;
+}
+
+.label_passwordinfomation {
+    font-size: 12px;
+}
+
+.icon_collapsible {
+    color: #005bb3;
+    cursor: context-menu;
+}
+
+.active,
+.icon_collapsible:hover {
+    color: black;
+}
+
+.div_passwordinformation {
+    border: #343a40 solid 0px;
+    padding: 0 18px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1s ease-out;
+}
+
+.span_passwordinformation {
+    color: black !important;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.turnstile {
+    text-align: center;
+}
+
+/* Login */
+.login_layout {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 550px;
+    text-align: start;
+}
+
+/* Forgot password */
+.forgot_layout{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 550px;
+    text-align: start;
+}
+
+/* reset password */
+.reset_layout{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 550px;
+    text-align: start;
+}
+
+/* userInformation */
+.userinformation_layout{
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 550px;
+    text-align: start;
+}
